@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Godwin Iwajomo</title>
+    <meta name="description" content="This is a copy of WDD131 / WDD231">
+    <meta name="author" content="Godwin Iwajomo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>Hello Godwin</h1>
+    <header>
+        <span id="course-title"></span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/godwin-iwajomo-8aa30836b">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/.">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a></li>
+                <li><a href="">Final</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Godwin O. Iwajomo</h1>
+        <div class="card-container">
+            <section class="card">
+                <h2>About Me</h2>
+                <div class="card-content1">
+                    <p>My name is Godwin and I go by G-tech.
+                        I was born in Nigeria and live my family in Lagos.
+                        I am currently  a BYU - Pathway student. My family and I love spending with each other.
+                        I love to travel and I love to learn new things.</p>
+                    <img src="images/my-picture.jpg" alt="my picture" width="150" height="200">
+                </div>
+                <h2 class="country-title">Lagos, Nigeria</h2>
+                <div class="card-content2">
+                    <figure>
+                        <img src="images/flag.jpg" alt="nigeria flag" width="200">
+                        <figcaption>Official Flag of Nigeria</figcaption>
+                    </figure>
+                    <p>Lagos is a vibrant, rapidly growing megacity in southwestern Nigeria,
+                        often recognized as Africa's most populous city and its premier commercial hub.
+                        Historically, it began as a fishing settlement known as Eko before developing into a significant British colonial port.</p>
+                </div>
+            </section>
+            <section class="card">
+                <h2>Web Dev Resources</h2>
+                <div class="dev-links">
+                    <li><a href="">Dev.to Community</a></li>
+                    <li><a href="">Smashing Magazine</a></li>
+                    <li><a href="">CSS Tricks</a></li>
+                    <li><a href="">W3 Schools</a></li>
+                    <li><a href="">Udemy</a></li>
+                    <li><a href="">Lorem Picsum Image Placeholder</a></li>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span>✌️Godwin Iwajomo✌️Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
