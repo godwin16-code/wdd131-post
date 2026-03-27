@@ -147,12 +147,6 @@ figcaption {
     font-size: 14px;
 }
 
-@media screen and (min-width: 900px) {
-    nav {
-        height: 45px;
-    }
-}
-
 footer {
     background-color: var(--primary-color);
     display: block;
@@ -166,4 +160,8 @@ footer p {
     color: var(--text-color);
     font-weight: 300;
     font-style: italic;
+}
+
+#lastModified {
+    color: red;
 }
